@@ -13,5 +13,14 @@
   <main>
   </main>
   <footer data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="global.footer.partial.html"></footer>
+  
+  <script>
+    // Initialize burger menu after HTMX loads the header
+    document.body.addEventListener('htmx:afterOnLoad', (event) => {
+      if (event.detail.elt.tagName === 'HEADER') {
+        import('./js/index.header-burger.js');
+      }
+    });
+  </script>
 </body>
 </html>

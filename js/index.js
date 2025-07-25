@@ -1,6 +1,7 @@
 function init() {
     import('./index.header-text.js');
     import('./index.header-clock.js');
+    import('./index.header-burger.js');
     import('./index.product-list.js');
     import('./index.product-carousel.js');
 }

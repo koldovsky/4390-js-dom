@@ -1,0 +1,22 @@
+.product-carousel {
+    display: grid;
+    grid-template-columns: 100px 1fr 100px;
+
+    .product-carousel__slide-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+        gap: 10px;
+        min-height: 300px;
+
+        div {
+            height: 100%;
+            padding: 10px;
+            img {
+                height: 100%;
+            }
+        }
+    }
+}

@@ -21,6 +21,11 @@
       data-hx-get="global.header.partial.html"
     ></header>
     <main>
+      <div
+        data-hx-trigger="load"
+        data-hx-swap="outerHTML"
+        data-hx-get="index.product-carousel.partial.html"
+      ></div>
       <section
         data-hx-trigger="load"
         data-hx-swap="outerHTML"
@@ -32,5 +37,6 @@
       data-hx-swap="outerHTML"
       data-hx-get="global.footer.partial.html"
     ></footer>
+    <script type="module" src="js/index.js"></script>
   </body>
 </html>

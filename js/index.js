@@ -4,6 +4,7 @@ function init() {
     import('./index.header-burger.js');
     import('./index.product-list.js');
     import('./index.product-carousel.js');
+    import('./index.animated-carousel.js');
 }
 
 const totalPartials = document.querySelectorAll('[hx-trigger="load"], [data-hx-trigger="load"]').length;
